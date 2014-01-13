@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_app_name">Kitesurf wind</string>
+    <string name="about_app_version_string">version 1.0</string>
+    <string name="about_developer">Robbert vd Zon</string>
+    <string name="about_website"><u>www.robbertvdzon.com</u></string>
+    <string name="settings_select_spot">Selecteer spot voor widget:</string>
+    <string name="settings_select_default_spot">Selecteer favoriete spot:</string>
+    
+    <string name="settings_minimal_wind">Minimale wind (in m/s):</string>
+    <string name="settings_optimal_wind">Optimale wind (in m/s):</string>
+    <string name="settings_much_wind">Erg veel wind (in m/s):</string>
+    <string name="settings_toomuch_wind">Te veel wind (in m/s):</string>
+
+    <string name="windlistviewadapter_title_time">tijd:</string>
+    <string name="windlistviewadapter_title_wind">wind:</string>
+    <string name="windlistviewadapter_title_gust">windvlagen:</string>
+    
+    <string name="graphics_onshore">Aanlandig</string>
+    <string name="graphics_sideshore">Sideshore</string>
+    <string name="graphics_offshore">Aflandig</string>
+    <string name="graphics_no_data">Geen gegevens</string>
+    <string name="graphics_mps">m/sec</string>
+    <string name="graphics_degrees">graden</string>
+    
+    <string name="activity_loading">Bezig met laden....</string>
+    <string name="activity_no_data_try_later">Geen gegevens, probeer het later opnieuw....</string>
+    <string name="activity_starting">Bezig met starten....</string>
+    
+    
+    <string name="save">OK</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_about">Over</string>
+    <string name="action_log">Open logging</string>
+    <string name="action_history">History</string>
+    <string name="title_activity_details">Kitesurf wind</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
