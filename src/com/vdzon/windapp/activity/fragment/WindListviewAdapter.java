@@ -85,6 +85,7 @@ public class WindListviewAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
+		
 		ViewHolder holder = null;
 		int type = getItemViewType(position);
 		// first populate the holder

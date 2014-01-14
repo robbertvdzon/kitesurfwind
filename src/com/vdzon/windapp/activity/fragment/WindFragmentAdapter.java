@@ -7,6 +7,8 @@ import java.util.List;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.util.Log;
+import android.view.ViewGroup;
 
 import com.vdzon.windapp.pojo.SpotData;
 import com.vdzon.windapp.util.Util;
@@ -25,6 +27,14 @@ public class WindFragmentAdapter extends FragmentPagerAdapter {
 		super(fm);
 		setSpots(_windSpots);
 	}
+
+	@Override
+	public Object instantiateItem(ViewGroup container, int position) {
+		WindFragment fragment = (WindFragment) super.instantiateItem(container, position);
+		int day = Util.calculateDay(new Date());// today
+		mFragments.put(new Integer(position), fragment);
+		return fragment;
+	}	
 
 	@Override
 	public Fragment getItem(int position) {
