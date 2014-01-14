@@ -126,7 +126,6 @@ public final class WindFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		new Exception().printStackTrace();
 		if (!isAdded()) return null;
 		if (getActivity()==null) return null;
 		loadFromBundle(savedInstanceState);
